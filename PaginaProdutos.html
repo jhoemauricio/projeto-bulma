@@ -52,29 +52,29 @@
     <!-- product info colunas-->
     <section class="section">
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-3">
-                    
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+
                     <!-- <p>Lorem ipsum dolor sit amet adpissincing elit. Reprehenderit saepe molestias
                         natus delectus voluptates tempore ea dolorius. Dolor voluptate saepe laborum,
                         itaque dict mollitia, in ipsum error magnam
                         laboiosam obcaecati!</p> -->
 
-                        <h1 class="is-size-1 title">Docker</h1>
-                        <h2 class="is-size-2 subtitle">Dark Roast</h2>
-                        <p>Lorem ipsum dolor sit amet adpissincing elit. Reprehenderit saepe molestias
-                            natus delectus voluptates tempore ea dolorius. Dolor voluptate saepe laborum,
-                            itaque dict mollitia, in ipsum error magnam
-                            laboiosam obcaecati!</p> 
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Docker</h1>
+                    <h2 class="is-size-3-mobile is-size-2-desktop subtitle">Dark Roast</h2>
+                    <p>Lorem ipsum dolor sit amet adpissincing elit. Reprehenderit saepe molestias
+                        natus delectus voluptates tempore ea dolorius. Dolor voluptate saepe laborum,
+                        itaque dict mollitia, in ipsum error magnam
+                        laboiosam obcaecati!</p>
                 </div>
-                <div class="column is-5 has-text-centered">
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
                     <img src="assets/product.png" alt="docker coffee image" class="px-6">
                     <!-- <p>Lorem ipsum dolor sit amet adpissincing elit. Reprehenderit saepe molestias
                         natus delectus voluptates tempore ea dolorius. Dolor voluptate saepe laborum,
                         itaque dict mollitia, in ipsum error magnam
                         laboiosam obcaecati!</p> -->
                 </div>
-                <div class="column is-4">
+                <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 mb-4">$10.95
 
                     </div>
@@ -91,6 +91,56 @@
         </div>
 
     </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-variable">
+                <div class="column is-7-tablet">
+                    <!-- tabbed content -->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-information">
+                                <a>Delivery Information</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>lorem ipsum, doler sit amet consectetur adipisicing elit. Voluptates cupditate, ipsam
+                                nobis nemo distinctio sunt quibusdam voluptaum blanditiis debitis consequuntur
+        
+                            </p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">Delivery Information</h3>
+                            <p>lorem ipsum, doler sit amet consectetur adipisicing elit. Voluptates cupditate, ipsam
+                                nobis nemo distinctio sunt quibusdam voluptaum blanditiis debitis consequuntur
+        
+                            </p>
+                        </div>
+
+                    </div>
+              
+                </div>
+                <div class="column is-5-tablet">
+                    <p>lorem ipsum, doler sit amet consectetur adipisicing elit. Voluptates cupditate, ipsam
+                        nobis nemo distinctio sunt quibusdam voluptaum blanditiis debitis consequuntur
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
 
     <script src="index.js"></script>
 </body>
